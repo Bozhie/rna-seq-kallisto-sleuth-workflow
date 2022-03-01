@@ -4,11 +4,11 @@ units: config/units.tsv
 resources:
   ref:
     # ensembl species name
-    species: homo_sapiens
+    species: mus_musculus
     # ensembl release version
-    release: "104"
+    release: "77"
     # genome build
-    build: GRCh38
+    build: GRCm38
     # this is the version of the bioconda package `bioconductor-org.{species}`.eg.db` that
     # you want -- this needs to be compatible with the versions `r-base` and the
     # bioconductor packages specified e.g. in `envs/` files `fgsea.yaml`, `spia.yaml` and
@@ -44,14 +44,14 @@ diffexp:
   # model for sleuth differential expression analysis
   models:
     model_X:
-      full: ~condition + batch_effect
-      reduced: ~batch_effect
+      full: ~condition
+      reduced: ~1
       # Binary valued covariate that shall be used for fold change/effect size
       # based downstream analyses.
       primary_variable: condition
       # base level of the primary variable (will be considered as denominator 
       # in the fold change/effect size estimation).
-      base_level: untreated
+      base_level: PT_0h
   # significance level to use for volcano, ma- and qq-plots
   sig-level:
     volcano-plot: 0.05
@@ -59,7 +59,7 @@ diffexp:
     qq-plot: 0.05
 
 diffsplice:
-  activate: true
+  activate: false
   # codingCutoff parameter of isoformSwitchAnalyzer, see
   # https://rdrr.io/bioc/IsoformSwitchAnalyzeR/man/analyzeCPAT.html
   coding_cutoff: 0.725
@@ -91,7 +91,7 @@ enrichment:
     # the species specified by resources -> ref -> species above
     pathway_database: "reactome"
 
-bootstrap_plots:
+bootstrap_plots: true
   # desired false discovery rate for bootstrap plots, i.e. a lower FDR will result in fewer boxplots generated
   FDR: 0.01
   # maximum number of bootstrap plots to generate, i.e. top n discoveries to plot
@@ -100,7 +100,7 @@ bootstrap_plots:
   # for now, this will plot the sleuth-normalised kallisto count estimations with kallisto
   # for all the transcripts of the respective genes
   genes_of_interest:
-    - A4galt
+
 
 plot_vars:
   # significance level used for plot_vars() plots
@@ -128,4 +128,4 @@ params:
   #     false positive adapter matches
   #   * `--minimum-overlap 7`: the cutadapt default minimum overlap of `5` did trimming on the level
   #     of expected adapter matches by chance
-  cutadapt-pe: "-a ACGGATCGATCGATCGATCGAT -g GGATCGATCGATCGATCGAT -A ACGGATCGATCGATCGATCGAT -G GGATCGATCGATCGATCGAT --minimum-length 33 -e 0.005 --overlap 7"
+  cutadapt-pe: ""
