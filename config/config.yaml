@@ -91,7 +91,7 @@ enrichment:
     # the species specified by resources -> ref -> species above
     pathway_database: "reactome"
 
-bootstrap_plots: true
+bootstrap_plots:
   # desired false discovery rate for bootstrap plots, i.e. a lower FDR will result in fewer boxplots generated
   FDR: 0.01
   # maximum number of bootstrap plots to generate, i.e. top n discoveries to plot
