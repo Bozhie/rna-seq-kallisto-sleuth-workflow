@@ -99,8 +99,7 @@ bootstrap_plots:
   color_by: condition
   # for now, this will plot the sleuth-normalised kallisto count estimations with kallisto
   # for all the transcripts of the respective genes
-  genes_of_interest:
-
+  genes_of_interest: []
 
 plot_vars:
   # significance level used for plot_vars() plots
