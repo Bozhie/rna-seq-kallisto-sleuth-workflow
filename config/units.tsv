@@ -1,15 +1,15 @@
 	sample	unit	fragment_len_mean	fragment_len_sd	fq1	fq2
-0	PT_0h	2	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623249/SRR9870513.fastq	
-1	PT_0h	1	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623248/SRR9870512.fastq	
-2	PT_96h	2	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623251/SRR9870515.fastq	
-3	PT_96h	1	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623250/SRR9870514.fastq	
-4	Wapl-C20_0h	2	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106184/SRR12623453.fastq	
-5	Wapl-C20_0h	1	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106183/SRR12623452.fastq	
-6	Wapl-C20_24h	2	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106188/SRR12623457.fastq	
-7	Wapl-C20_24h	1	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106187/SRR12623456.fastq	
-8	Wapl-C20_48h	2	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106190/SRR12623459.fastq	
-9	Wapl-C20_48h	1	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106189/SRR12623458.fastq	
-10	Wapl-C20_6h	2	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106186/SRR12623455.fastq	
-11	Wapl-C20_6h	1	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106185/SRR12623454.fastq	
-12	Wapl-C20_96h	2	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106192/SRR12623461.fastq	
-13	Wapl-C20_96h	1	65		/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106191/SRR12623460.fastq	
+0	PT_0h	2	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623249/SRR9870513.fastq	
+1	PT_0h	1	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623248/SRR9870512.fastq	
+2	PT_96h	2	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623251/SRR9870515.fastq	
+3	PT_96h	1	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX6623250/SRR9870514.fastq	
+4	Wapl-C20_0h	2	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106184/SRR12623453.fastq	
+5	Wapl-C20_0h	1	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106183/SRR12623452.fastq	
+6	Wapl-C20_24h	2	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106188/SRR12623457.fastq	
+7	Wapl-C20_24h	1	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106187/SRR12623456.fastq	
+8	Wapl-C20_48h	2	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106190/SRR12623459.fastq	
+9	Wapl-C20_48h	1	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106189/SRR12623458.fastq	
+10	Wapl-C20_6h	2	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106186/SRR12623455.fastq	
+11	Wapl-C20_6h	1	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106185/SRR12623454.fastq	
+12	Wapl-C20_96h	2	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106192/SRR12623461.fastq	
+13	Wapl-C20_96h	1	65	1.5	/project/fudenber_735/GEO/liu_deWit_2021_GSE135180/pysradb_downloads/SRP216929/SRX9106191/SRR12623460.fastq	
